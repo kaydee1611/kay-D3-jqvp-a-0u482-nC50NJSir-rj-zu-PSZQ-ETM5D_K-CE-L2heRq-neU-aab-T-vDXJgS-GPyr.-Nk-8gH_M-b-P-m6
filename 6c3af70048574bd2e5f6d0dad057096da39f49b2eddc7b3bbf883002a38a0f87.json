@@ -1,12 +1,12 @@
 {
     "Game": {
-      "A": {
-        "botUrl": "",
-        "checkDieSelector": "",
-        "launchGameButtonSelector": "",
-        "captchaLaunchSelector": "",
-        "iframeSrcStart": "",
-        "sessionStorageKey": ""
+      "matchquest": {
+        "botUrl": "https://web.telegram.org/k/#@MatchQuestBot",
+        "checkDieSelector": "//h4[text()='Log in to Telegram by QR Code']",
+        "launchGameButtonSelector": "//span[text()='Launch MatchQuest']",
+        "captchaLaunchSelector": "//span[text()='Launch']",
+        "iframeSrcStart": "https://tgapp.matchain.io/",
+        "sessionStorageKey": "__telegram__initParams"
       },
       "B": {
         "botUrl": "",
