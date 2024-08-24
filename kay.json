@@ -1,0 +1,36 @@
+{
+    "Game": {
+      "A": {
+        "botUrl": "",
+        "checkDieSelector": "",
+        "launchGameButtonSelector": "",
+        "captchaLaunchSelector": "",
+        "iframeSrcStart": "",
+        "sessionStorageKey": ""
+      },
+      "B": {
+        "botUrl": "",
+        "checkDieSelector": "",
+        "launchGameButtonSelector": "",
+        "captchaLaunchSelector": "",
+        "iframeSrcStart": "",
+        "sessionStorageKey": ""
+      },
+      "C": {
+        "botUrl": "",
+        "checkDieSelector": "",
+        "launchGameButtonSelector": "",
+        "captchaLaunchSelector": "",
+        "iframeSrcStart": "",
+        "sessionStorageKey": ""
+      },
+      "D": {
+        "botUrl": "",
+        "checkDieSelector": "",
+        "launchGameButtonSelector": "",
+        "captchaLaunchSelector": "",
+        "iframeSrcStart": "",
+        "sessionStorageKey": ""
+      }
+    }
+  }
