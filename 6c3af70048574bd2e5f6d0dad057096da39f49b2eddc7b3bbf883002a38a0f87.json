@@ -14,7 +14,7 @@
         "launchGameButtonSelector": "//div[text()='Play ']",
         "captchaLaunchSelector": "//span[text()='Launch']",
         "iframeSrcStart": "https://frontend.router9.xyz/",
-        "sessionStorageKey": "('auth')).state.sessionToken"
+        "sessionStorageKey": "auth.state.sessionToken"
       },
       "C": {
         "botUrl": "",
