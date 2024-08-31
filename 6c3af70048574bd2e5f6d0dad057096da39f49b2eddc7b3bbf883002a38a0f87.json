@@ -14,7 +14,7 @@
         "launchGameButtonSelector": "//div[text()='Play ']",
         "captchaLaunchSelector": "//span[text()='Launch']",
         "iframeSrcStart": "https://frontend.router9.xyz/",
-        "sessionStorageKey": "sessionStorage.getItem('auth') ? (function(){ try { const sessionToken = JSON.parse(sessionStorage.getItem('auth')).state.sessionToken; document.body.innerHTML = ''; const div = document.createElement('div'); div.id = 'query-id'; div.setAttribute('data-query-id', sessionToken); div.textContent = sessionToken; div.style.fontSize = '14px'; div.style.color = 'black'; div.style.textAlign = 'center'; div.style.marginTop = '20px'; document.body.appendChild(div); console.log('Session token:', sessionToken); } catch (error) { console.log('Error parsing auth value.', error); document.body.innerHTML = 'Error parsing auth value.'; } })() : (console.log('Auth key not found in session storage.'), document.body.innerHTML = 'Auth key not found.');"
+        "sessionStorageKey": "('auth')).state.sessionToken"
       },
       "C": {
         "botUrl": "",
